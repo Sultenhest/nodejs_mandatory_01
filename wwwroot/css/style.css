@@ -1,0 +1,149 @@
+/*
+ * Generel styling
+ */
+*{
+    margin: 0; padding: 0;
+}
+
+body{
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+hr{
+    margin: 30px 0;
+}
+
+.flex{
+    margin: 0 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.button{
+    font-weight: 900;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+.flex-50{
+    width: 50%;
+    align-self: flex-start;
+}
+
+@media screen and (max-width: 767px) {
+    .flex-50{
+        width: 100%;
+    }
+}
+
+.text-center{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/*
+ * Actual styling
+ */
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+#home{
+    display: flex;
+    text-decoration: none;
+    color: #000;
+}
+
+#home #logo{
+    height:18px;
+    margin:0 6px 0 0;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+.nav ul li a{
+    color: #000;
+    padding: 12px 6px;
+}
+
+#jumbotron{
+    align-items: center;
+}
+
+#jumbotron h1{
+    font-size: 3rem;
+}
+
+#jumbotron .button{
+    font-size:1rem;
+}
+
+#jumbotron h1, .content h1{
+    width: 100%;
+}
+
+#jumbotron #subheader{
+    color: #666;
+    margin: 10px 0;
+    width: 200px;
+}
+
+#jumbotron iframe{
+    display: block;
+    margin: 10px auto 0 auto;
+}
+
+sidebar article{
+    display: flex;
+    margin: 0 0 1em 0;
+}
+
+sidebar article img{
+    width: 150px;
+    align-self: center;
+    margin: 0 10px;
+}
+
+.squares img{
+    padding: 0 1% 1% 1%;
+    width: 30%;
+}
+
+/*
+ * Footer
+ */
+footer{
+    margin: 0 !important;
+    padding: 10px 0 50px 0;
+}
+
+footer .button{
+    font-size:0.75rem;
+    padding: 6px 70px;
+}
+
+/*
+ *
+ */
+.error-404{
+    margin-top: 50px;
+}
