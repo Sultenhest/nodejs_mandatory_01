@@ -129,6 +129,38 @@ sidebar article img{
 }
 
 /*
+ * Contact page
+ */
+.contact-content {
+    max-width: 500px;
+    margin:0 auto;
+    -webkit-flex-direction: column; 
+    flex-direction: column; 
+}
+
+#intro-msg {
+    padding-bottom: 15px;
+}
+
+#name, #msg {
+    width: 100%;
+    line-height: 20px;
+}
+
+#sendmsg {
+    width: 100%;
+}
+
+#msg-box {
+    margin-top: 15px;
+    border-top: 2px solid black;
+}
+
+.student-msg {
+    padding: 15px;
+}
+
+/*
  * Footer
  */
 footer{
